@@ -1,0 +1,17 @@
+org_name: nullstone
+name: gcp-gke-psc-gateway-route
+friendly_name: PSC Gateway Route
+description: Hostname route from a PSC Gateway to a GKE app
+category: capability
+subcategory: ingress
+provider_types:
+    - gcp
+platform: gateway
+subplatform: gke-psc
+type: ""
+appCategories:
+    - container
+is_public: true
+tool_name: opentofu
+include: []
+source_url: "https://github.com/nullstone-modules/gcp-gke-psc-gateway-route"
